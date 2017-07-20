@@ -1,5 +1,17 @@
 $(document).ready(function () {
-    $('.main-slider').slick({
+
+    var headerHeight = $('.header-row').outerHeight(),
+        navHeight = $('.nav-links-row').outerHeight(),
+        footerHeight = $('.footer-row').outerHeight();
+
+
+    function resizeGallery() {
+        var windowHeight = $(window).height();
+
+        galleryImages.height(windowHeight - headerHeight - navHeight - footerHeight - slickDotsHeight);
+    }
+
+    $('.main-slider-col').slick({
         dots: true,
         infinite: true,
         speed: 300,
@@ -7,4 +19,14 @@ $(document).ready(function () {
         centerMode: true,
         variableWidth: true
     });
+
+    var galleryImages = $('.main-slider-col .slick-slide img'),
+        slickDotsHeight = $('.slick-dots').outerHeight();
+
+    resizeGallery();
+
+    $(window).resize(function() {
+        resizeGallery();
+    });
+
 });

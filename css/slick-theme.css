@@ -162,7 +162,7 @@
 }
 .slick-dots li button:before
 {
-    font-size: 6px;
+    font-size: 28px;
     line-height: 20px;
 
     position: absolute;
@@ -172,10 +172,9 @@
     width: 20px;
     height: 20px;
 
-    content: '•';
+    content: '\2022';
     text-align: center;
-
-    opacity: .25;
+    opacity: .45;
     color: black;
 
     -webkit-font-smoothing: antialiased;
