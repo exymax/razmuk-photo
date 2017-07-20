@@ -70,12 +70,12 @@ body {
     background-image: url(../images/social/facebook-colored.png);
 }
 
-.social-link-twitter {
-    background-image: url(../images/social/twitter.png);
+.social-link-instagram {
+    background-image: url(../images/social/instagram.png);
 }
 
-.social-link-twitter:hover {
-    background-image: url(../images/social/twitter-colored.png);
+.social-link-instagram:hover {
+    background-image: url(../images/social/instagram-colored.png);
 }
 
 .social-link-container {
