@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header-row {
+    padding: 30px 0 30px 0;
+}
+
+.nav-links-row {
+    padding: 30px 50px;
+}
+
+.nav-links-col a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: rgb(120, 120, 120);
+}
+
+.nav-links-col a:hover {
+    color: #4DD6F1;
+}
+
+.nav-links-col a.active {
+    color: #4DD6F1;
+    border-bottom: 1px solid #4DD6F1;
+}
+
+.main-slider .slick-slide {
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.main-slider .slick-slide img {
+    height: 550px;
+}

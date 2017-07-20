@@ -1,0 +1,11 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.transition {
+    transition: all .15s ease-in-out;
+}
+
+.child-transition * {
+    transition: all .15s ease-in-out;
+}
