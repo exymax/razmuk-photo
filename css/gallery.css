@@ -1,0 +1,38 @@
+body {
+    overflow-x: hidden;
+}
+
+.photoset {
+    margin-top: 10px;
+    cursor: pointer;
+    opacity: .8;
+    min-height: 200px;
+}
+
+.photoset:hover {
+    opacity: 1;
+}
+
+.photoset:hover .title {
+    color: #4DD6F1;
+}
+
+.photoset > img {
+    width: 100%;
+}
+
+.photoset .title {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.photoset .description {
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.offset-animated {
+    transform: translateY(100px);
+    opacity: 0;
+}
