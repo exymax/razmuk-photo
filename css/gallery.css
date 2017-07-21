@@ -2,6 +2,10 @@ body {
     overflow-x: hidden;
 }
 
+.grid-container {
+    display: none;
+}
+
 .photoset {
     margin-top: 10px;
     cursor: pointer;
@@ -35,6 +39,11 @@ body {
 .offset-animated {
     transform: translateY(100px);
     opacity: 0;
+}
+
+.grid-item {
+    margin: 0;
+    padding: 0;
 }
 
 .grid-item img {

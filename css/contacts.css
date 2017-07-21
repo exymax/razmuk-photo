@@ -15,10 +15,11 @@ body {
 }
 
 .row-contacts-container .info-piece {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .input-container input, .input-container textarea {
+    outline: none;
     margin-top: 20px;
     padding: 8px 9px;
     border: none;
