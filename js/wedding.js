@@ -5,12 +5,13 @@ $(document).ready(function() {
         $.getJSON('js/json/wedding/'+jsonID+'.json', function(data) {
             if(data.hasOwnProperty('photos')) {
                 data.photos.forEach(function(url) {
-                    var gridItemWrapper = $('<div class="grid-item"></div>');
+                    var gridItemWrapper = $('<div class="col-xs-4 grid-item"></div>');
                     var gridItem = gridItemWrapper.append('<img src="'+url+'" />');
                     $('.grid-container').append(gridItem);
                 });
                 $('.grid-container').masonry({
-                    itemSelector: '.grid-item'
+                    itemSelector: '.grid-item',
+                    columnWidth: '.grid-sizer'
                 });
             }
         });

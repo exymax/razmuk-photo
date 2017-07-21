@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+}
+
+.image-wrapper {
+    width: 100%;
+}
+
+.row-contacts-container {
+    color: rgb(60, 60, 60);
+}
+
+.row-contacts-container .title {
+    font-size: 24px;
+}
+
+.row-contacts-container .info-piece {
+    font-size: 20px;
+}
+
+.input-container input, .input-container textarea {
+    margin-top: 20px;
+    padding: 8px 9px;
+    border: none;
+    border-bottom: 3px solid #D9DAC5;
+    font-size: 16px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.send-form {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    background-color: #c4c5b0;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 2px;
+}
+
+.send-form:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+}

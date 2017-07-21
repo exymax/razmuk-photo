@@ -1,0 +1,78 @@
+body {
+    overflow-x: hidden;
+}
+
+.hero-row {
+    height: 400px;
+    background: url(../images/about.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hero-col .name {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.hero-col .photography {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.about-col {
+    margin-top: 30px;
+    color: rgb(60, 60, 60);
+}
+
+.about-col .title {
+    font-size: 18px;
+}
+
+.about-col .description {
+    margin-top: 20px;
+    text-align: justify;
+
+}
+
+.row-about-stuff {
+    margin-top: 30px;
+}
+
+.description-column {
+    color: rgb(60, 60, 60);
+}
+
+.description-column .photo {
+    width: 300px;
+    height: 300px;
+    background: url(../images/about-circle.jpg);
+    border-radius: 100%;
+}
+
+.description-column .title, .description-column .description {
+    margin-top: 10px;
+}
+
+.description-column .description {
+    text-align: justify;
+}
+
+@media screen and (max-width: 1600px) {
+    .description-column .photo {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .description-column .photo {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -3,17 +3,19 @@
 <head>
     <title>Andrey Razmuk</title>
     <link rel="stylesheet" href="css/flexboxgrid.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contacts.css">
 </head>
 <body>
 <div class="container">
     <div class="header-row row center-xs middle-xs">
         <div class="header-col col-xs-12">
-            Andrey Razmuk
+            <a href="index.html"><img src="images/logo.png"></a>
         </div>
     </div>
     <div class="nav-links-row row center-xs middle-xs">
-        <div class="nav-links-col col-xs-12">
+        <div class="nav-links-col col-xs-12 child-transition">
             <a href="index.html">Home</a>
             <a href="wedding.html">Wedding Photo</a>
             <a href="lovestory.html">Love Story</a>
@@ -22,6 +24,56 @@
             <a class="active" href="contacts.html">Contacts</a>
         </div>
     </div>
+
+    <div class="row-contacts-container row center-xs">
+        <div class="col-xs-3">
+            <img class="image-wrapper" src="images/contacts.png">
+        </div>
+        <div class="col-xs-3">
+            <div class="row center-xs middle-xs contacts-info">
+                <div class="col-xs-10">
+                    <h4 class="title">Contact</h4>
+                    <div class="row info start-xs middle-xs">
+                        <div class="col-xs-12 info-piece">E-MAIL: A.RAZMUK@GMAIL.COM</div>
+                        <div class="col-xs-12 info-piece">PHONE: +375 29 618-28-20</div>
+                        <div class="col-xs-12 info-piece">PHONE: +375 29 288-28-20</div>
+                        <form class="col-xs-12 form-send-email">
+                            <div class="row center-xs">
+                                <div class="input-container col-xs-12">
+                                    <input type="text" name="name" placeholder="Name">
+                                </div>
+                                <div class="input-container col-xs-12">
+                                    <input type="email" name="email" placeholder="Email">
+                                </div>
+                                <div class="input-container col-xs-12">
+                                    <textarea title="message" name="message" placeholder="Message"></textarea>
+                                </div>
+                                <button class="transition send-form" type="submit">SEND FORM</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-row row center-xs middle-xs footer">
+        <div class="footer-col col-xs-12 child-transition">
+            <div class="social-link-container social-link-vk">
+                <a class="" href="https://vk.com" target="_blank"></a>
+            </div>
+            <div class="social-link-container social-link-facebook">
+                <a class="" href="https://facebook.com" target="_blank"></a>
+            </div>
+            <div class="social-link-container social-link-instagram">
+                <a class="" href="https://instagram.com" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.0/masonry.pkgd.js"></script>
+<script src="js/wedding.js"></script>
 </body>
 </html>

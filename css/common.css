@@ -14,6 +14,10 @@ body {
     transition: all .15s ease-in-out;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .container {
     width: 100%;
     height: 100%;

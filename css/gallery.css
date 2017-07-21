@@ -36,3 +36,7 @@ body {
     transform: translateY(100px);
     opacity: 0;
 }
+
+.grid-item img {
+    width: 100%;
+}
