@@ -42,8 +42,13 @@ body {
 }
 
 .grid-item {
+    opacity: .8;
     margin: 0;
-    padding: 0;
+    padding: 4px 4px 0 4px;
+}
+
+.grid-item:hover {
+    opacity: 1;
 }
 
 .grid-item img {

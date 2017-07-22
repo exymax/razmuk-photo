@@ -30,4 +30,6 @@ $(document).ready(function () {
         resizeGallery();
     });
 
+    $(window).resize();
+
 });
