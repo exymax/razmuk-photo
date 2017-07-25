@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 body {
     overflow-x: hidden;
 }
 
 .image-wrapper {
-    width: 100%;
+    width: 80%;
 }
 
 .row-contacts-container {
@@ -11,14 +13,17 @@ body {
 }
 
 .row-contacts-container .title {
-    font-size: 24px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 34px;
 }
 
 .row-contacts-container .info-piece {
-    font-size: 19px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
 }
 
 .input-container input, .input-container textarea {
+    font-family: 'Roboto', sans-serif;
     outline: none;
     margin-top: 20px;
     padding: 8px 9px;

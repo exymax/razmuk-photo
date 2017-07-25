@@ -18,7 +18,11 @@ body {
 }
 
 .photoset:hover .title {
-    color: #4DD6F1;
+    color: #3588CC;
+}
+
+.photoset:hover .description {
+    opacity: .6;
 }
 
 .photoset > img {
@@ -53,4 +57,5 @@ body {
 
 .grid-item img {
     width: 100%;
+    height: 100%;
 }
